@@ -1,10 +1,6 @@
 name: verify
 
-on:
-  push:
-    branches:
-    - main
-  pull_request:
+on: push
 
 jobs:
   verify:
@@ -17,8 +13,7 @@ jobs:
       uses: actions/setup-python@v4
 
     - name: Install dependencies
-      run: pip3 install -U git+https://github.com/${{ github.repository }}.git@master
-
+      run: pip3 install -U online-judge-verify-helper
 
     - name: Set up Rust (1.42.0)
       uses: actions-rs/toolchain@v1
