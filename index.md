@@ -1,6 +1,11 @@
 ---
 data:
   libraryCategories:
+  - name: datastructures
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: datastructures/disjointsetunion.hpp
+      title: datastructures/disjointsetunion.hpp
   - name: math
     pages:
     - icon: ':heavy_check_mark:'
@@ -17,5 +22,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: aizu/Lesson/ITP1/hello_world.test.cpp
       title: aizu/Lesson/ITP1/hello_world.test.cpp
+  - name: library-checker/data-structures
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: library-checker/data-structures/unionfind.test.cpp
+      title: library-checker/data-structures/unionfind.test.cpp
 layout: toppage
 ---
