@@ -4,6 +4,9 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: aizu/Library/DSL/disjoint_test.test.cpp
+    title: aizu/Library/DSL/disjoint_test.test.cpp
+  - icon: ':heavy_check_mark:'
     path: library-checker/data-structures/unionfind.test.cpp
     title: library-checker/data-structures/unionfind.test.cpp
   _isVerificationFailed: false
@@ -32,6 +35,7 @@ data:
   timestamp: '2023-10-06 17:24:32-04:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - aizu/Library/DSL/disjoint_test.test.cpp
   - library-checker/data-structures/unionfind.test.cpp
 documentation_of: datastructures/disjointsetunion.hpp
 layout: document

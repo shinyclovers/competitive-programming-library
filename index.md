@@ -22,6 +22,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: aizu/Lesson/ITP1/hello_world.test.cpp
       title: aizu/Lesson/ITP1/hello_world.test.cpp
+  - name: aizu/Library/DSL
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: aizu/Library/DSL/disjoint_test.test.cpp
+      title: aizu/Library/DSL/disjoint_test.test.cpp
   - name: library-checker/data-structures
     pages:
     - icon: ':heavy_check_mark:'
