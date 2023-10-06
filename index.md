@@ -25,8 +25,8 @@ data:
   - name: aizu/Library/DSL
     pages:
     - icon: ':heavy_check_mark:'
-      path: aizu/Library/DSL/disjoint_test.test.cpp
-      title: aizu/Library/DSL/disjoint_test.test.cpp
+      path: aizu/Library/DSL/disjoint_set.test.cpp
+      title: aizu/Library/DSL/disjoint_set.test.cpp
   - name: library-checker/data-structures
     pages:
     - icon: ':heavy_check_mark:'
