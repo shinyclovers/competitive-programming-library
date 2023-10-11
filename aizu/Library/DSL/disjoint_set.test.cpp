@@ -1,6 +1,6 @@
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_A"
 #include <iostream>
-#include "datastructures/disjointsetunion.hpp"
+#include "datastructures/disjoint_set_union.hpp"
 
 int main(){
   int n, q;

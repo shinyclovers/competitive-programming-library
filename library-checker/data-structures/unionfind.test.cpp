@@ -1,6 +1,6 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/unionfind"
 #include <iostream>
-#include "datastructures/disjointsetunion.hpp"
+#include "datastructures/disjoint_set_union.hpp"
 
 int main(){
   int n, q;
