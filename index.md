@@ -4,8 +4,8 @@ data:
   - name: datastructures
     pages:
     - icon: ':heavy_check_mark:'
-      path: datastructures/disjointsetunion.hpp
-      title: datastructures/disjointsetunion.hpp
+      path: datastructures/disjoint_set_union.hpp
+      title: datastructures/disjoint_set_union.hpp
   - name: math
     pages:
     - icon: ':heavy_check_mark:'

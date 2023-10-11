@@ -2,8 +2,8 @@
 data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
-    path: datastructures/disjointsetunion.hpp
-    title: datastructures/disjointsetunion.hpp
+    path: datastructures/disjoint_set_union.hpp
+    title: datastructures/disjoint_set_union.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -16,7 +16,7 @@ data:
     - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_A
   bundledCode: "#line 1 \"aizu/Library/DSL/disjoint_set.test.cpp\"\n#define PROBLEM\
     \ \"https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_A\"\n#include\
-    \ <iostream>\n#line 1 \"datastructures/disjointsetunion.hpp\"\n\n\n\n#include\
+    \ <iostream>\n#line 1 \"datastructures/disjoint_set_union.hpp\"\n\n\n\n#include\
     \ <vector>\n\nclass DisjoinSetUnion{\n  public:\n  DisjoinSetUnion(int n): parent(n)\
     \ {\n    for(int i = 0 ; i < n ; i++) parent[i] = i;\n  }\n\n  int find(int u)\
     \ {\n    if(parent[u] == u) return u;\n    return parent[u] = find(parent[u]);\n\
@@ -28,17 +28,17 @@ data:
     \ v;\n    if (t == 0) dsu.merge(u, v);\n    else std::cout << (dsu.find(u) ==\
     \ dsu.find(v)) << std::endl;\n  }\n}\n"
   code: "#define PROBLEM \"https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_A\"\
-    \n#include <iostream>\n#include \"datastructures/disjointsetunion.hpp\"\n\nint\
-    \ main(){\n  int n, q;\n  std::cin >> n >> q;\n  DisjoinSetUnion dsu(n);\n  for\
-    \ (int i = 0 ; i < q ; i++) {\n    int t, u, v;\n    std::cin >> t >> u >> v;\n\
-    \    if (t == 0) dsu.merge(u, v);\n    else std::cout << (dsu.find(u) == dsu.find(v))\
-    \ << std::endl;\n  }\n}"
+    \n#include <iostream>\n#include \"datastructures/disjoint_set_union.hpp\"\n\n\
+    int main(){\n  int n, q;\n  std::cin >> n >> q;\n  DisjoinSetUnion dsu(n);\n \
+    \ for (int i = 0 ; i < q ; i++) {\n    int t, u, v;\n    std::cin >> t >> u >>\
+    \ v;\n    if (t == 0) dsu.merge(u, v);\n    else std::cout << (dsu.find(u) ==\
+    \ dsu.find(v)) << std::endl;\n  }\n}"
   dependsOn:
-  - datastructures/disjointsetunion.hpp
+  - datastructures/disjoint_set_union.hpp
   isVerificationFile: true
   path: aizu/Library/DSL/disjoint_set.test.cpp
   requiredBy: []
-  timestamp: '2023-10-06 18:20:54-04:00'
+  timestamp: '2023-10-11 17:23:04-04:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: aizu/Library/DSL/disjoint_set.test.cpp
